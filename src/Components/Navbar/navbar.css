@@ -1,0 +1,71 @@
+/* navbar.css */
+.Navbar {
+    background-color: #141414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .logo {
+    height: 50px;
+    width: 120px;
+    flex-shrink: 0; /* Prevents logo from shrinking */
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 40px; /* Adds some space between the logo and the links */
+    flex-grow: 1; /* Allows the navLinks to take up available space */
+  }
+  
+  .navLinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navLinks a:hover {
+    color: #e50914; /* Netflix red */
+  }
+  
+  .navLinks a:active {
+    color: #b81d24;
+  }
+  .children{
+    color: white;
+    text-decoration: none;
+  }
+  .children:hover{
+    color: #e50914;
+
+  }
+  
+  /* Right side icons */
+  .navrightIcons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    margin-right: 50px;
+  }
+  
+  .navrightIcons svg {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navrightIcons svg:hover {
+    color: #e50914; /* Netflix red */
+  }
+  
