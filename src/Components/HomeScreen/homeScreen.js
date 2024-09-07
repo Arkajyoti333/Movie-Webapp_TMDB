@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
-
 import FetchPopularMovies from '../../TMDB_Services/tmdbServices';
 import MovieCard from '../MovieCard/MovieCard';
+
+
+
 
 const HomeScreen = () => {
 
