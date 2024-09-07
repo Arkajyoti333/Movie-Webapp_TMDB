@@ -6,19 +6,19 @@ import { CiUser } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 const navBar = () => {
   return (
-    <div className='Navbar'>
+    <div className=' Navbar '>
         <img src={Logo} alt='' className='logo'/>
         <div className='navLinks'>
-        <a href='https://www.netflix.com/browse'>Home</a>
-        <a href='https://www.netflix.com/browse'>TV Shows</a>
-        <a href='https://www.netflix.com/browse'>Movies</a>
-        <a href='https://www.netflix.com/browse'>New & Popular</a>
-        <a href='https://www.netflix.com/browse'>My List</a>
-        <a href='https://www.netflix.com/browse'>Browse My Languages</a>
+        <a href='/home'>Home</a>
+        <a href='/tvShows'>TV Shows</a>
+        <a href='movies'>Movies</a>
+        <a href='popular'>New & Popular</a>
+        <a href='myList'>My List</a>
+        <a href='languuage'>Browse My Languages</a>
         </div>
         <div className='navrightIcons'>
         <CiSearch />
-        <a href='https://www.netflix.com/browse' className='children'>Children</a>
+        <a href='###' className='children'>Children</a>
         <IoNotifications />
         <CiUser />
         </div>
