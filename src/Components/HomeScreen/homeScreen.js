@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import './homeScreen.css'
+
 import FetchPopularMovies from '../../TMDB_Services/tmdbServices';
 import MovieCard from '../MovieCard/MovieCard';
+
+
+
 
 const HomeScreen = () => {
 
