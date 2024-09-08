@@ -27,7 +27,7 @@
     flex-grow: 1; /* Allows the navLinks to take up available space */
   }
   
-  .navLinks a {
+  .navLinks NavLink {
     color: white;
     text-decoration: none;
     font-size: 14px;

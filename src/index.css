@@ -3,6 +3,17 @@
 @tailwind utilities;
 
 
+* {
+  scrollbar-width: thin; 
+  scrollbar-color: #888 #333;
+  scroll-behavior: smooth; 
+}
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+*::-webkit-scrollbar {
+  width: 8px; 
+}
+
 body {
   background-color: #000000;
   color: white; /* Optional: Set the text color to white for contrast */
