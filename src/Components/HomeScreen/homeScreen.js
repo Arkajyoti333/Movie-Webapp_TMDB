@@ -21,7 +21,7 @@ const HomeScreen = () => {
 
   return (
     <>
-      <div className="App container bg-black mx-auto px-4 ">
+      <div className="App container bg-black mx-auto px-4 mt-[6rem] ">
       <h1 className="text-4xl font-bold text-center my-8">Popular Movies</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {movies.map((movie) => (
