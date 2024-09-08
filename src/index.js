@@ -5,6 +5,7 @@ import './index.css';
 // import App from './App';
 import Root from './Root/Root';
 import HomeScreen from './Components/HomeScreen/homeScreen';
+import { Error } from './Pages';
 
 
 
@@ -20,7 +21,7 @@ const route=createBrowserRouter([
 
       {
         path:"*",
-        element:<div className=' text-center mt-40 mb-5 font-semibold '>page not found !</div>
+        element:<Error/>,
       }
     ]
   }
