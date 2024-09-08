@@ -20,7 +20,7 @@ const route=createBrowserRouter([
 
       {
         path:"*",
-        element:<div className=' text-center mt-40 mb-5'>page not found !</div>
+        element:<div className=' text-center mt-40 mb-5 font-semibold '>page not found !</div>
       }
     ]
   }
