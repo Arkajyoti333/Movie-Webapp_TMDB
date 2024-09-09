@@ -5,6 +5,7 @@ import './index.css';
 // import App from './App';
 import Root from './Root/Root';
 import HomeScreen from './Components/HomeScreen/homeScreen';
+import { Error,Home,Movie, MyList, NewPopular, TvShows } from './Pages';
 
 
 
@@ -17,10 +18,29 @@ const route=createBrowserRouter([
         path:"/",
         element:<HomeScreen/>
       },
-
+      {
+        path:'/home',
+        element:<Home/>
+      },
+      {
+        path:'/tvShows',
+         element:<TvShows/>
+      } ,
+      {
+         path:'/movies',
+         element:<Movie/>
+      },
+      {
+        path:'/popular',
+        element:<NewPopular/>
+      },
+      {
+        path:'/myList',
+        element:<MyList/>
+      },
       {
         path:"*",
-        element:<div className=' text-center mt-40 mb-5 font-semibold '>page not found !</div>
+        element:<Error/>,
       }
     ]
   }

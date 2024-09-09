@@ -2,12 +2,14 @@
 .footer {
     background-color: #141414;
     padding: 40px 20px;
+    margin-top: 6px;
     text-align: center;
     font-family: 'Arial', sans-serif;
     color: #757575;
     position: relative;
     bottom: 0;
     width: 100%;
+    border-top: 3px solid gray;
   }
   
   .footer-content {
