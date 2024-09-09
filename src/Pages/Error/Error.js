@@ -15,7 +15,7 @@ const Error = () => {
         </div>
         <Link
           to="/"
-          className="mt-8 border-2 shadow-lg border-red-600 p-2 rounded-md font-semibold text-white hover:border-blue-500 hover:border-2 transition-all duration-300 ease-in-out hover:tracking-wider"
+          className="mt-8 border-2 shadow-lg border-white-600 p-2 rounded-md font-semibold text-white hover:border-red-600 hover:border-2 transition-all duration-300 ease-in-out hover:tracking-wider"
         >
           Back to Home &rarr;
         </Link>

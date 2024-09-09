@@ -3,12 +3,7 @@ import React from 'react';
 const MovieCard = ({ movie }) => {
   const { title, poster_path, overview, vote_average, release_date } = movie;
   const posterUrl = `https://image.tmdb.org/t/p/w500${poster_path}`;
-
-
-
-
    return (  
-   
    <>
    <div className="movie-card">
   <img className="movieImage" src={posterUrl} alt={title} />
@@ -21,15 +16,9 @@ const MovieCard = ({ movie }) => {
     <span className="releaseDate">{release_date}</span>
   </div>
 </div>
-
    </>
-  );
-
-
-       
-  
+  );  
 };
-
 export default MovieCard;
 // return (
 
